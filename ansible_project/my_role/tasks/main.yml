@@ -1,0 +1,6 @@
+---
+# tasks file for my_role
+name: Install Net-Tools Package
+ package:
+ name: "{{ net-tools }}"
+ state: present
