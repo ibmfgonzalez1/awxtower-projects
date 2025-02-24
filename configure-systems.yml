@@ -1,14 +1,1 @@
 # Playbook to call mutlipe roles to configure system
-- name: Confgigure systems
-  hosts: servers
-  become: yes
-
-  tasks:
-
-- name: Call Roles
-  hosts: servers
-  roles:
-    # hostname
-    # firewalld
-    # ntp-config
-    - motd
